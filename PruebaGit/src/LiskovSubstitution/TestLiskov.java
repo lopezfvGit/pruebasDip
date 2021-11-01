@@ -1,10 +1,16 @@
 package LiskovSubstitution;
 
+public class TestLiskov
+{
+    public static void main(String[] args) {
+        Hijo hijo = new Hijo();
+        hijo.metodoPadre(new CirculoEspecial());
+    }
+}
 /*
 El tipo de cada parámetro en el método de la subclase debe ser igual o más abstracto que en la superclase
  */
-
-/*VLR class Padre {
+class Padre {
     public void metodoPadre(Circulo circulo) {
     }
 }
@@ -28,11 +34,3 @@ class CirculoEspecial extends Circulo {
 }
 
 
-public class TestLiskov
-{
-    public static void main(String[] args) {
-        Hijo hijo = new Hijo();
-        hijo.metodoPadre(new CirculoEspecial());
-    }
-
-} VLR*/

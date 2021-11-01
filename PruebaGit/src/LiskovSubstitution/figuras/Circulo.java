@@ -1,4 +1,4 @@
-package solid.liskov.figuras;
+package LiskovSubstitution.figuras;
 
 public class Circulo extends Elipse
 {
